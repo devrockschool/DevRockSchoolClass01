@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "DevRockSchoolClass01"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-DevRockSchoolClass01-e06a5838-e62d-4151-ae6f-63aa370d7bb0;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
