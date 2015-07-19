@@ -102,6 +102,9 @@ namespace DevRockSchoolClass01.Controllers
                     //await MessageServices.SendEmailAsync(model.Email, "Confirm your account",
                     //    "Please confirm your account by clicking this link: <a href=\"" + callbackUrl + "\">link</a>");
                     await SignInManager.SignInAsync(user, isPersistent: false);
+                    // Add new user to member role
+                    await UserManager.AddToRoleAsync(user, "Member");
+                    
                     return RedirectToAction("Index", "Home");
                 }
                 AddErrors(result);
