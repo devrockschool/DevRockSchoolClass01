@@ -13,7 +13,7 @@ using DevRockSchoolClass01;
 using DevRockSchoolClass01.Models;
 
 namespace DevRockSchoolClass01.Controllers
-{
+{   //TEST COMMIT
     [Authorize]
     public class AccountController : Controller
     {
